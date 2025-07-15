@@ -113,7 +113,7 @@ export default function CasPratiques() {
           </div>
           
           <p className="text-xl text-gray-700 mb-8">
-            Mettez en pratique vos connaissances avec ces exercices d'application 
+            Mettez en pratique vos connaissances avec ces exercices d&apos;application 
             inspires des epreuves DSCG. Chaque cas inclut une methodologie detaillee.
           </p>
           
