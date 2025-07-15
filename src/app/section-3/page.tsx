@@ -20,7 +20,7 @@ export default function Section3() {
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">Cadre de contrôle interne</h2>
             
             <p className="text-gray-700 leading-relaxed mb-6">
-              La mise en place d'un système de centralisation de trésorerie nécessite un cadre de contrôle
+              La mise en place d&apos;un systeme de centralisation de tresorerie necessite un cadre de controle
               rigoureux pour assurer la sécurité des opérations et la conformité réglementaire.
             </p>
             
@@ -201,8 +201,8 @@ export default function Section3() {
                 
                 <p className="text-green-800 mb-2"><strong>Données :</strong></p>
                 <ul className="text-green-700 text-sm space-y-1 mb-3">
-                  <li>• Tresorier : autorise jusqu'a 500 k EUR</li>
-                  <li>• Directeur Financier : autorise jusqu'a 1,5 M EUR</li>
+                  <li>• Tresorier : autorise jusqu&apos;a 500 k EUR</li>
+                  <li>• Directeur Financier : autorise jusqu&apos;a 1,5 M EUR</li>
                   <li>• Direction Generale : autorisation illimitee</li>
                 </ul>
                 
@@ -220,7 +220,7 @@ export default function Section3() {
                   <p>  3. Direction Generale (autorisation finale)</p>
                   <br/>
                   <p><strong>Controles a effectuer :</strong></p>
-                  <p>• Verification de la capacite d'endettement</p>
+                  <p>• Verification de la capacite d&apos;endettement</p>
                   <p>• Validation de la contrepartie bancaire</p>
                   <p>• Documentation de l&apos;operation</p>
                 </div>

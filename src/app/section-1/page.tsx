@@ -162,32 +162,32 @@ export default function Section1() {
                 <div className="bg-white p-4 rounded border">
                   <h5 className="font-semibold text-yellow-800 mb-2">Remontée de fonds vers la mère</h5>
                   <div className="text-sm text-yellow-700">
-                    <p><strong>Débit :</strong> 451 "Groupe" (Autres créances)</p>
-                    <p><strong>Crédit :</strong> 512 "Banque"</p>
+                    <p><strong>Débit :</strong> 451 &quot;Groupe&quot; (Autres créances)</p>
+                    <p><strong>Crédit :</strong> 512 &quot;Banque&quot;</p>
                   </div>
                 </div>
                 
                 <div className="bg-white p-4 rounded border">
                   <h5 className="font-semibold text-yellow-800 mb-2">Réception de fonds des filiales</h5>
                   <div className="text-sm text-yellow-700">
-                    <p><strong>Débit :</strong> 512 "Banque"</p>
-                    <p><strong>Crédit :</strong> 451 "Groupe" (Dettes financières)</p>
+                    <p><strong>Débit :</strong> 512 &quot;Banque&quot;</p>
+                    <p><strong>Crédit :</strong> 451 &quot;Groupe&quot; (Dettes financières)</p>
                   </div>
                 </div>
                 
                 <div className="bg-white p-4 rounded border">
                   <h5 className="font-semibold text-yellow-800 mb-2">Intérêts versés</h5>
                   <div className="text-sm text-yellow-700">
-                    <p><strong>Débit :</strong> 6615 "Intérêts des comptes courants"</p>
-                    <p><strong>Crédit :</strong> 451 "Groupe"</p>
+                    <p><strong>Débit :</strong> 6615 &quot;Intérêts des comptes courants&quot;</p>
+                    <p><strong>Crédit :</strong> 451 &quot;Groupe&quot;</p>
                   </div>
                 </div>
                 
                 <div className="bg-white p-4 rounded border">
                   <h5 className="font-semibold text-yellow-800 mb-2">Intérêts reçus</h5>
                   <div className="text-sm text-yellow-700">
-                    <p><strong>Débit :</strong> 451 "Groupe"</p>
-                    <p><strong>Crédit :</strong> 768 "Autres produits financiers"</p>
+                    <p><strong>Débit :</strong> 451 &quot;Groupe&quot;</p>
+                    <p><strong>Crédit :</strong> 768 &quot;Autres produits financiers&quot;</p>
                   </div>
                 </div>
               </div>

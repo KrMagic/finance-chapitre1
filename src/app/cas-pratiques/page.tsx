@@ -114,7 +114,7 @@ export default function CasPratiques() {
           
           <p className="text-xl text-gray-700 mb-8">
             Mettez en pratique vos connaissances avec ces exercices d'application 
-            inspirés des épreuves DSCG. Chaque cas inclut une méthodologie détaillée.
+            inspires des epreuves DSCG. Chaque cas inclut une methodologie detaillee.
           </p>
           
           <div className="grid gap-8">
@@ -314,7 +314,7 @@ export default function CasPratiques() {
                   <p className="mb-2"><strong>Excédents :</strong> 0,5% vs 0,6% (marché) → Non conforme (-0,1%)</p>
                   <p className="mb-3"><strong>Déficits :</strong> 2,8% vs 2,5% (marché) → Non conforme (+0,3%)</p>
                   
-                  <h5 className="font-semibold mb-2">2. Calcul de l'impact fiscal :</h5>
+                  <h5 className="font-semibold mb-2">2. Calcul de l&apos;impact fiscal :</h5>
                   <p className="mb-1"><strong>Sous-rémunération excédents :</strong></p>
                   <p className="mb-2">15M€ × 0,1% = 15 000€ de produits financiers non déclarés</p>
                   
