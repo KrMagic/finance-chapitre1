@@ -12,12 +12,12 @@ export default function CourseHeader() {
         
         <div className="flex-1 text-center sm:text-left">
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 bg-gradient-to-r from-white to-blue-100 bg-clip-text text-transparent leading-tight">
-            La Gestion Centralisée de Trésorerie dans un Groupe
+            La Gestion Centralisee de Tresorerie dans un Groupe
           </h1>
           
           <p className="text-base sm:text-lg lg:text-xl text-blue-100 mb-4 sm:mb-6 leading-relaxed">
             Maîtrisez les techniques avancées de gestion de trésorerie en environnement de groupe. 
-            De la centralisation des flux à l'optimisation financière.
+            De la centralisation des flux a l&apos;optimisation financiere.
           </p>
           
           <div className="flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-4">

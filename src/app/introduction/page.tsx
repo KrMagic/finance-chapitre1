@@ -17,13 +17,13 @@ export default function Introduction() {
           </div>
           
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Qu'est-ce que la gestion centralisée de trésorerie ?</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Qu&apos;est-ce que la gestion centralisee de tresorerie ?</h2>
             
             <p className="text-gray-700 leading-relaxed mb-6">
-              La gestion centralisée de trésorerie est une approche stratégique qui consiste à regrouper 
-              et coordonner les activités de trésorerie de toutes les entités d'un groupe au sein d'une 
-              structure centrale. Cette centralisation permet d'optimiser la gestion des liquidités, 
-              de réduire les coûts financiers et d'améliorer le contrôle des risques.
+              La gestion centralisee de tresorerie est une approche strategique qui consiste a regrouper 
+              et coordonner les activites de tresorerie de toutes les entites d&apos;un groupe au sein d&apos;une 
+              structure centrale. Cette centralisation permet d&apos;optimiser la gestion des liquidites, 
+              de reduire les couts financiers et d&apos;ameliorer le controle des risques.
             </p>
             
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6">
@@ -32,30 +32,30 @@ export default function Introduction() {
                 <div>
                   <h3 className="font-semibold text-blue-900 mb-2">Objectifs principaux</h3>
                   <ul className="text-blue-800 space-y-1">
-                    <li>• Optimisation de la liquidité du groupe</li>
-                    <li>• Réduction des coûts de financement</li>
-                    <li>• Amélioration du contrôle des risques</li>
+                    <li>• Optimisation de la liquidite du groupe</li>
+                    <li>• Reduction des couts de financement</li>
+                    <li>• Amelioration du controle des risques</li>
                     <li>• Standardisation des processus</li>
                   </ul>
                 </div>
               </div>
             </div>
             
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">Concepts clés à retenir</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">Concepts cles a retenir</h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-4 sm:mb-6">
               <div className="bg-green-50 p-6 rounded-lg border border-green-200">
                 <h3 className="font-semibold text-green-900 mb-3">Cash Pooling</h3>
                 <p className="text-green-800 text-sm">
-                  Technique de centralisation physique ou notionnelle des soldes de trésorerie 
-                  des filiales vers la société mère.
+                  Technique de centralisation physique ou notionnelle des soldes de tresorerie 
+                  des filiates vers la societe mere.
                 </p>
               </div>
               
               <div className="bg-purple-50 p-6 rounded-lg border border-purple-200">
                 <h3 className="font-semibold text-purple-900 mb-3">Netting</h3>
                 <p className="text-purple-800 text-sm">
-                  Compensation des créances et dettes entre entités du groupe pour réduire 
+                  Compensation des creances et dettes entre entites du groupe pour reduire 
                   les flux financiers.
                 </p>
               </div>
@@ -63,7 +63,7 @@ export default function Introduction() {
               <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
                 <h3 className="font-semibold text-orange-900 mb-3">Centre de Services Partagés</h3>
                 <p className="text-orange-800 text-sm">
-                  Structure centralisée qui gère les opérations de trésorerie pour l'ensemble 
+                  Structure centralisee qui gere les operations de tresorerie pour l&apos;ensemble 
                   du groupe.
                 </p>
               </div>
@@ -71,7 +71,7 @@ export default function Introduction() {
               <div className="bg-indigo-50 p-6 rounded-lg border border-indigo-200">
                 <h3 className="font-semibold text-indigo-900 mb-3">Reporting Consolidé</h3>
                 <p className="text-indigo-800 text-sm">
-                  Vision globale et en temps réel de la position de trésorerie du groupe.
+                  Vision globale et en temps reel de la position de tresorerie du groupe.
                 </p>
               </div>
             </div>
@@ -80,10 +80,10 @@ export default function Introduction() {
               <div className="flex items-start gap-3">
                 <Lightbulb className="h-6 w-6 text-yellow-600 mt-1" />
                 <div>
-                  <h3 className="font-semibold text-yellow-900 mb-2">Moyen mnémotechnique</h3>
+                  <h3 className="font-semibold text-yellow-900 mb-2">Moyen mnemotechnique</h3>
                   <p className="text-yellow-800">
                     <strong>CORP</strong> : <strong>C</strong>entralisation, <strong>O</strong>ptimisation, 
-                    <strong>R</strong>isques, <strong>P</strong>rocessus - les 4 piliers de la gestion centralisée.
+                    <strong>R</strong>isques, <strong>P</strong>rocessus - les 4 piliers de la gestion centralisee.
                   </p>
                 </div>
               </div>

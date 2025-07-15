@@ -17,10 +17,10 @@ export default function Section2() {
           </div>
           
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">Stratégies d'optimisation</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">Strategies d&apos;optimisation</h2>
             
             <p className="text-gray-700 leading-relaxed mb-6">
-              L'optimisation financière dans un contexte de gestion centralisée vise à maximiser 
+              L&apos;optimisation financiere dans un contexte de gestion centralisee vise a maximiser 
               la rentabilité des excédents de trésorerie tout en minimisant les coûts de financement 
               et les risques associés.
             </p>
@@ -62,19 +62,19 @@ export default function Section2() {
               <div className="bg-blue-50 p-6 rounded-lg">
                 <h4 className="font-semibold text-blue-900 mb-3">Financement centralisé</h4>
                 <ul className="text-blue-800 space-y-2 text-sm">
-                  <li>• Négociation de conditions préférentielles</li>
+                  <li>• Negociation de conditions preferentielles</li>
                   <li>• Mutualisation des garanties</li>
                   <li>• Optimisation de la notation groupe</li>
-                  <li>• Réduction des coûts administratifs</li>
+                  <li>• Reduction des couts administratifs</li>
                 </ul>
               </div>
               
               <div className="bg-orange-50 p-6 rounded-lg">
                 <h4 className="font-semibold text-orange-900 mb-3">Prêts intra-groupe</h4>
                 <ul className="text-orange-800 space-y-2 text-sm">
-                  <li>• Transfert des excédents vers les besoins</li>
+                  <li>• Transfert des excedents vers les besoins</li>
                   <li>• Respect des prix de transfert</li>
-                  <li>• Documentation juridique appropriée</li>
+                  <li>• Documentation juridique appropriee</li>
                   <li>• Optimisation fiscale</li>
                 </ul>
               </div>
@@ -99,9 +99,9 @@ export default function Section2() {
                     <div>
                       <strong className="text-red-800">Risque de taux</strong>
                       <ul className="text-red-700 text-sm mt-1">
-                        <li>• Swaps de taux d'intérêt</li>
-                        <li>• Diversification des échéances</li>
-                        <li>• Analyse de sensibilité</li>
+                        <li>• Swaps de taux d&apos;interet</li>
+                        <li>• Diversification des echeances</li>
+                        <li>• Analyse de sensibilite</li>
                       </ul>
                     </div>
                   </div>
@@ -117,20 +117,20 @@ export default function Section2() {
                 <div className="bg-white p-4 rounded border">
                   <h5 className="font-semibold text-orange-800 mb-2">Rémunération des excédents</h5>
                   <ul className="text-sm text-orange-700 space-y-1">
-                    <li>• Taux de marché obligatoire</li>
+                    <li>• Taux de marche obligatoire</li>
                     <li>• Documentation des conditions</li>
                     <li>• Comparaison avec taux bancaires</li>
-                    <li>• Justification économique</li>
+                    <li>• Justification economique</li>
                   </ul>
                 </div>
                 
                 <div className="bg-white p-4 rounded border">
                   <h5 className="font-semibold text-orange-800 mb-2">Financement des déficits</h5>
                   <ul className="text-sm text-orange-700 space-y-1">
-                    <li>• Taux équivalent aux comptes courants</li>
+                    <li>• Taux equivalent aux comptes courants</li>
                     <li>• Respect du principe de pleine concurrence</li>
-                    <li>• Éviter les avantages anormaux</li>
-                    <li>• Conformité aux prix de transfert</li>
+                    <li>• Eviter les avantages anormaux</li>
+                    <li>• Conformite aux prix de transfert</li>
                   </ul>
                 </div>
               </div>
@@ -175,36 +175,36 @@ export default function Section2() {
               </div>
             </div>
             
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">6. Exercice d'optimisation financière</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">6. Exercice d&apos;optimisation financiere</h3>
             
             <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-6">
               <h4 className="font-semibold text-green-900 mb-3">Cas pratique : Optimisation des placements - Groupe EPSILON</h4>
               <div className="mb-4">
-                <p className="text-green-800 mb-2"><strong>Situation :</strong> Le groupe EPSILON dispose d'un excédent de trésorerie de 5 000 000 € à placer selon la hiérarchie suivante :</p>
+                <p className="text-green-800 mb-2"><strong>Situation :</strong> Le groupe EPSILON dispose d&apos;un excedent de tresorerie de 5 000 000 EUR a placer selon la hierarchie suivante :</p>
                 <ul className="text-green-700 text-sm space-y-1 mb-3">
-                  <li>• Niveau 1 (0-7 jours) : 1 500 000 € à 1,5%</li>
-                  <li>• Niveau 2 (1-3 mois) : 2 000 000 € à 2,8%</li>
-                  <li>• Niveau 3 (3-12 mois) : 1 500 000 € à 3,5%</li>
-                  <li>• Coût de financement évité : 4,2%</li>
+                  <li>• Niveau 1 (0-7 jours) : 1 500 000 EUR a 1,5%</li>
+                  <li>• Niveau 2 (1-3 mois) : 2 000 000 EUR a 2,8%</li>
+                  <li>• Niveau 3 (3-12 mois) : 1 500 000 EUR a 3,5%</li>
+                  <li>• Cout de financement evite : 4,2%</li>
                 </ul>
-                <p className="text-green-800 text-sm"><strong>Question :</strong> Calculez le rendement global et l'économie réalisée par rapport au coût de financement.</p>
+                <p className="text-green-800 text-sm"><strong>Question :</strong> Calculez le rendement global et l&apos;economie realisee par rapport au cout de financement.</p>
               </div>
               
               <details className="bg-white p-4 rounded">
                 <summary className="font-semibold text-green-900 cursor-pointer">Voir la solution</summary>
                 <div className="mt-3 text-sm text-green-700">
                   <p><strong>Calcul du rendement par niveau :</strong></p>
-                  <p>• Niveau 1 : 1 500 000 × 1,5% = 22 500 €</p>
-                  <p>• Niveau 2 : 2 000 000 × 2,8% = 56 000 €</p>
-                  <p>• Niveau 3 : 1 500 000 × 3,5% = 52 500 €</p>
-                  <p>• <strong>Total produits :</strong> 131 000 €</p>
+                  <p>• Niveau 1 : 1 500 000 x 1,5% = 22 500 EUR</p>
+                  <p>• Niveau 2 : 2 000 000 x 2,8% = 56 000 EUR</p>
+                  <p>• Niveau 3 : 1 500 000 x 3,5% = 52 500 EUR</p>
+                  <p>• <strong>Total produits :</strong> 131 000 EUR</p>
                   <br/>
                   <p><strong>Rendement global :</strong> 131 000 / 5 000 000 = 2,62%</p>
                   <br/>
-                  <p><strong>Économie vs financement :</strong></p>
-                  <p>• Coût évité : 5 000 000 × 4,2% = 210 000 €</p>
-                  <p>• Gain net : 210 000 - 131 000 = 79 000 €</p>
-                  <p>• <strong>Économie nette : 1,58% du capital</strong></p>
+                  <p><strong>Economie vs financement :</strong></p>
+                  <p>• Cout evite : 5 000 000 x 4,2% = 210 000 EUR</p>
+                  <p>• Gain net : 210 000 - 131 000 = 79 000 EUR</p>
+                  <p>• <strong>Economie nette : 1,58% du capital</strong></p>
                 </div>
               </details>
             </div>
@@ -212,7 +212,7 @@ export default function Section2() {
             <h3 className="text-xl font-semibold text-gray-800 mb-4">7. Optimisation fiscale</h3>
             
             <div className="bg-yellow-50 p-6 rounded-lg mb-6">
-              <h4 className="font-semibold text-yellow-900 mb-3">Leviers d'optimisation</h4>
+              <h4 className="font-semibold text-yellow-900 mb-3">Leviers d&apos;optimisation</h4>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <TrendingDown className="h-5 w-5 text-yellow-600 mt-1" />
@@ -225,7 +225,7 @@ export default function Section2() {
                 <div className="flex items-start gap-3">
                   <TrendingDown className="h-5 w-5 text-yellow-600 mt-1" />
                   <div>
-                    <strong className="text-yellow-800">Optimisation des flux d'intérêts</strong>
+                    <strong className="text-yellow-800">Optimisation des flux d&apos;interets</strong>
                     <p className="text-sm text-yellow-700">Structuration pour minimiser la charge fiscale globale</p>
                   </div>
                 </div>
@@ -243,12 +243,12 @@ export default function Section2() {
             <div className="bg-indigo-50 border-l-4 border-indigo-500 p-6">
               <h4 className="font-semibold text-indigo-900 mb-2">Moyen mnémotechnique - PROFIT</h4>
               <ul className="text-indigo-800 space-y-1 text-sm">
-                <li><strong>P</strong>lacements optimisés</li>
-                <li><strong>R</strong>isques maîtrisés</li>
+                <li><strong>P</strong>lacements optimises</li>
+                <li><strong>R</strong>isques maitrises</li>
                 <li><strong>O</strong>utils de mesure</li>
-                <li><strong>F</strong>inancements centralisés</li>
+                <li><strong>F</strong>inancements centralises</li>
                 <li><strong>I</strong>ndicateurs de performance</li>
-                <li><strong>T</strong>axation optimisée</li>
+                <li><strong>T</strong>axation optimisee</li>
               </ul>
             </div>
           </div>

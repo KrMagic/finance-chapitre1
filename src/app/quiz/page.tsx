@@ -17,43 +17,43 @@ interface Question {
 const questions: Question[] = [
   {
     id: 1,
-    question: "Quelle est la principale différence entre le cash pooling physique et notionnel ?",
+    question: "Quelle est la principale difference entre le cash pooling physique et notionnel ?",
     options: [
-      "Le cash pooling physique est plus risqué",
+      "Le cash pooling physique est plus risque",
       "Le cash pooling notionnel implique un transfert effectif de fonds",
       "Le cash pooling physique implique un transfert effectif de fonds",
-      "Il n'y a aucune différence"
+      "Il n&apos;y a aucune difference"
     ],
     correct: 2,
-    explanation: "Le cash pooling physique implique un transfert effectif des soldes vers un compte centralisé, tandis que le notionnel ne fait que compenser virtuellement les soldes."
+    explanation: "Le cash pooling physique implique un transfert effectif des soldes vers un compte centralise, tandis que le notionnel ne fait que compenser virtuellement les soldes."
   },
   {
     id: 2,
-    question: "Que signifie l'acronyme CORP dans le contexte de la gestion centralisée ?",
+    question: "Que signifie l&apos;acronyme CORP dans le contexte de la gestion centralisee ?",
     options: [
       "Centralisation, Optimisation, Risques, Processus",
-      "Contrôle, Organisation, Reporting, Performance",
+      "Controle, Organisation, Reporting, Performance",
       "Cash, Operations, Risk, Profit",
       "Coordination, Objectifs, Résultats, Pilotage"
     ],
     correct: 0,
-    explanation: "CORP représente les 4 piliers : Centralisation, Optimisation, Risques, Processus."
+    explanation: "CORP represente les 4 piliers : Centralisation, Optimisation, Risques, Processus."
   },
   {
     id: 3,
-    question: "Quel est l'avantage principal du netting multilatéral par rapport au bilatéral ?",
+    question: "Quel est l&apos;avantage principal du netting multilateral par rapport au bilateral ?",
     options: [
-      "Il est plus simple à mettre en œuvre",
-      "Il permet une plus grande économie de flux",
-      "Il nécessite moins de documentation",
-      "Il est moins risqué"
+      "Il est plus simple a mettre en oeuvre",
+      "Il permet une plus grande economie de flux",
+      "Il necessite moins de documentation",
+      "Il est moins risque"
     ],
     correct: 1,
-    explanation: "Le netting multilatéral permet de compenser les flux entre plusieurs entités simultanément, générant ainsi de plus grandes économies de flux."
+    explanation: "Le netting multilateral permet de compenser les flux entre plusieurs entites simultanement, generant ainsi de plus grandes economies de flux."
   },
   {
     id: 4,
-    question: "Dans la hiérarchie des placements, quelle est la durée typique du niveau 2 ?",
+    question: "Dans la hierarchie des placements, quelle est la duree typique du niveau 2 ?",
     options: [
       "0-7 jours",
       "1-3 mois",
@@ -61,19 +61,19 @@ const questions: Question[] = [
       "Plus de 12 mois"
     ],
     correct: 1,
-    explanation: "Le niveau 2 correspond à la liquidité court terme avec une durée de 1-3 mois (dépôts à terme, certificats de dépôt)."
+    explanation: "Le niveau 2 correspond a la liquidite court terme avec une duree de 1-3 mois (depots a terme, certificats de depot)."
   },
   {
     id: 5,
-    question: "Que signifie l'acronyme PROFIT pour l'optimisation financière ?",
+    question: "Que signifie l&apos;acronyme PROFIT pour l&apos;optimisation financiere ?",
     options: [
-      "Performance, Rentabilité, Optimisation, Financement, Investissement, Trésorerie",
+      "Performance, Rentabilite, Optimisation, Financement, Investissement, Tresorerie",
       "Placements, Risques, Outils, Financements, Indicateurs, Taxation",
       "Processus, Reporting, Organisation, Flux, Instruments, Techniques",
-      "Politique, Règles, Objectifs, Formation, Information, Transparence"
+      "Politique, Regles, Objectifs, Formation, Information, Transparence"
     ],
     correct: 1,
-    explanation: "PROFIT : Placements optimisés, Risques maîtrisés, Outils de mesure, Financements centralisés, Indicateurs de performance, Taxation optimisée."
+    explanation: "PROFIT : Placements optimises, Risques maitrises, Outils de mesure, Financements centralises, Indicateurs de performance, Taxation optimisee."
   },
   {
     id: 6,
@@ -81,15 +81,15 @@ const questions: Question[] = [
     options: [
       "451 - Groupe",
       "512 - Banque",
-      "6615 - Intérêts des comptes courants",
+      "6615 - Interets des comptes courants",
       "768 - Autres produits financiers"
     ],
     correct: 0,
-    explanation: "Le compte 451 'Groupe' est le compte principal pour enregistrer les avances et réceptions de fonds dans le cadre du cash pooling."
+    explanation: "Le compte 451 &apos;Groupe&apos; est le compte principal pour enregistrer les avances et receptions de fonds dans le cadre du cash pooling."
   },
   {
     id: 7,
-    question: "Selon la réglementation française, quels articles du Code monétaire et financier encadrent le cash pooling ?",
+    question: "Selon la reglementation francaise, quels articles du Code monetaire et financier encadrent le cash pooling ?",
     options: [
       "L312-2 et L511-7",
       "L511-5 et L312-1",
@@ -97,35 +97,35 @@ const questions: Question[] = [
       "L511-6 et L312-4"
     ],
     correct: 0,
-    explanation: "Les articles L312-2 et L511-7 du Code monétaire et financier autorisent les opérations de crédit entre filiales d'un même groupe."
+    explanation: "Les articles L312-2 et L511-7 du Code monetaire et financier autorisent les operations de credit entre filiales d'un meme groupe."
   },
   {
     id: 8,
-    question: "Dans une matrice de pouvoirs, quel niveau d'autorisation est requis pour une opération de 25M€ ?",
+    question: "Dans une matrice de pouvoirs, quel niveau d&apos;autorisation est requis pour une operation de 25M EUR ?",
     options: [
-      "Trésorier (< 1M€)",
-      "Directeur Financier (1-10M€)",
-      "Comité de Trésorerie (10-50M€)",
-      "Conseil d'Administration (> 50M€)"
+      "Tresorier (< 1M EUR)",
+      "Directeur Financier (1-10M EUR)",
+      "Comite de Tresorerie (10-50M EUR)",
+      "Conseil d&apos;Administration (> 50M EUR)"
     ],
     correct: 2,
-    explanation: "Une opération de 25M€ relève du niveau stratégique et nécessite l'autorisation du Comité de Trésorerie."
+    explanation: "Une operation de 25M EUR releve du niveau strategique et necessite l'autorisation du Comite de Tresorerie."
   },
   {
     id: 9,
-    question: "Quelle est la principale exigence fiscale pour la rémunération des excédents en cash pooling ?",
+    question: "Quelle est la principale exigence fiscale pour la remuneration des excedents en cash pooling ?",
     options: [
       "Taux fixe de 2%",
-      "Taux de marché",
-      "Taux préférentiel groupe",
-      "Aucune rémunération"
+      "Taux de marche",
+      "Taux preferentiel groupe",
+      "Aucune remuneration"
     ],
     correct: 1,
-    explanation: "La rémunération des excédents doit respecter le principe de pleine concurrence et être au taux de marché pour éviter les redressements fiscaux."
+    explanation: "La remuneration des excedents doit respecter le principe de pleine concurrence et etre au taux de marche pour eviter les redressements fiscaux."
   },
   {
     id: 10,
-    question: "Que signifie l'acronyme ZBA dans le contexte du cash pooling ?",
+    question: "Que signifie l&apos;acronyme ZBA dans le contexte du cash pooling ?",
     options: [
       "Zero Banking Account",
       "Zone Business Area",
@@ -133,7 +133,7 @@ const questions: Question[] = [
       "Zonal Banking Agreement"
     ],
     correct: 2,
-    explanation: "ZBA signifie Zero Balancing Account, une technique de cash pooling qui remet les comptes à zéro quotidiennement."
+    explanation: "ZBA signifie Zero Balancing Account, une technique de cash pooling qui remet les comptes a zero quotidiennement."
   }
 ];
 
@@ -187,7 +187,7 @@ export default function Quiz() {
               <div className="bg-orange-100 p-3 rounded-full">
                 <Brain className="h-8 w-8 text-orange-600" />
               </div>
-              <h1 className="text-4xl font-bold text-gray-900">Résultats du Quiz</h1>
+              <h1 className="text-4xl font-bold text-gray-900">Resultats du Quiz</h1>
             </div>
             
             <div className="mb-8">
@@ -198,7 +198,7 @@ export default function Quiz() {
                 {percentage}%
               </div>
               <p className="text-xl text-gray-700 mb-2">
-                Vous avez obtenu {score} bonnes réponses sur {questions.length}
+                Vous avez obtenu {score} bonnes reponses sur {questions.length}
               </p>
               
               <div className={`inline-block px-6 py-2 rounded-full text-white font-medium ${
@@ -206,7 +206,7 @@ export default function Quiz() {
                 percentage >= 60 ? 'bg-orange-500' : 'bg-red-500'
               }`}>
                 {percentage >= 80 ? 'Excellent !' : 
-                 percentage >= 60 ? 'Bien !' : 'À améliorer'}
+                  percentage >= 60 ? 'Bien !' : 'A ameliorer'}
               </div>
             </div>
             
@@ -262,7 +262,7 @@ export default function Quiz() {
               <Brain className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 text-orange-600" />
             </div>
             <div className="flex-1">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left">Quiz d'évaluation</h1>
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left">Quiz d&apos;evaluation</h1>
               <div className="flex items-center gap-4 mt-2">
                 <span className="text-gray-600">Question {currentQuestion + 1} sur {questions.length}</span>
                 <div className="flex-1 bg-gray-200 rounded-full h-2">
@@ -354,7 +354,7 @@ export default function Quiz() {
                 onClick={nextQuestion}
                 className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-lg font-medium transition-colors"
               >
-                {currentQuestion < questions.length - 1 ? 'Question suivante' : 'Voir les résultats'}
+                {currentQuestion < questions.length - 1 ? 'Question suivante' : 'Voir les resultats'}
               </button>
             </div>
           )}

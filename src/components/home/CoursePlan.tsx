@@ -8,7 +8,7 @@ import SectionBlock from './SectionBlock';
 const sections = [
   {
     title: 'Introduction',
-    description: 'Concepts de base et définitions de la gestion centralisée',
+    description: 'Concepts de base et definitions de la gestion centralisee',
     href: '/introduction',
     icon: Rocket,
     color: 'text-blue-600',
@@ -24,7 +24,7 @@ const sections = [
   },
   {
     title: 'Section II - Optimisation Financière',
-    description: 'Stratégies d\'optimisation et de gestion des risques',
+    description: 'Strategies d&apos;optimisation et de gestion des risques',
     href: '/section-2',
     icon: BarChart3,
     color: 'text-purple-600',
@@ -40,7 +40,7 @@ const sections = [
   },
   {
     title: 'Quiz',
-    description: 'Évaluation interactive de vos connaissances',
+    description: 'Evaluation interactive de vos connaissances',
     href: '/quiz',
     icon: Brain,
     color: 'text-orange-600',
@@ -48,7 +48,7 @@ const sections = [
   },
   {
     title: 'Cas Pratiques',
-    description: 'Exercices d\'application et méthodologie DSCG',
+    description: 'Exercices d&apos;application et methodologie DSCG',
     href: '/cas-pratiques',
     icon: Award,
     color: 'text-red-600',
@@ -63,7 +63,7 @@ export default function CoursePlan() {
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4">Plan du cours</h2>
         <p className="text-base sm:text-lg text-gray-600 max-w-3xl mx-auto px-4 sm:px-0">
           Découvrez les aspects essentiels de la gestion centralisée de trésorerie dans un groupe.
-          Ce cours couvre les techniques, l'optimisation et la gouvernance financière.
+          Ce cours couvre les techniques, l&apos;optimisation et la gouvernance financiere.
         </p>
       </div>
 

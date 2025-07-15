@@ -21,29 +21,29 @@ const casPratiques: CasPratique[] = [
     id: 1,
     title: "Optimisation du Cash Pooling - Groupe ALPHA",
     context: "Le groupe ALPHA dispose de 4 filiales avec les positions de trésorerie suivantes au 31/12. La société mère souhaite optimiser sa gestion centralisée.",
-    question: "Calculez l'économie d'intérêts réalisée grâce au cash pooling physique.",
+    question: "Calculez l&apos;economie d&apos;interets realisee grace au cash pooling physique.",
     data: [
       "Filiale A : +2 000 000 € (excédent)",
       "Filiale B : -1 500 000 € (déficit)",
       "Filiale C : +800 000 € (excédent)",
       "Filiale D : -500 000 € (déficit)",
-      "Taux de placement : 2,5% l'an",
-      "Taux d'emprunt : 4,8% l'an"
+      "Taux de placement : 2,5% l&apos;an",
+      "Taux d&apos;emprunt : 4,8% l&apos;an"
     ],
     solution: "**Situation avant cash pooling :**\n\nExcédents totaux : 2 000 000 + 800 000 = 2 800 000 €\nDéficits totaux : 1 500 000 + 500 000 = 2 000 000 €\n\nProduits financiers : 2 800 000 × 2,5% = 70 000 €\nCharges financières : 2 000 000 × 4,8% = 96 000 €\n**Résultat net : 70 000 - 96 000 = -26 000 €**\n\n**Situation après cash pooling :**\n\nPosition nette du groupe : 2 800 000 - 2 000 000 = 800 000 €\nProduits financiers : 800 000 × 2,5% = 20 000 €\nCharges financières : 0 €\n**Résultat net : 20 000 €**\n\n**Économie réalisée : 20 000 - (-26 000) = 46 000 € par an**",
     methodology: [
-      "Identifier les positions individuelles de chaque entité",
+      "Identifier les positions individuelles de chaque entite",
       "Calculer les produits et charges avant centralisation",
-      "Déterminer la position nette consolidée",
-      "Calculer le nouveau résultat financier",
-      "Mesurer l'économie réalisée"
+      "Determiner la position nette consolidee",
+      "Calculer le nouveau resultat financier",
+      "Mesurer l&apos;economie realisee"
     ]
   },
   {
     id: 2,
     title: "Système de Netting - Groupe BETA",
     context: "Le groupe BETA met en place un système de netting multilatéral pour optimiser ses flux inter-compagnies. Les flux mensuels entre filiales sont les suivants :",
-    question: "Calculez l'économie de flux réalisée et les nouveaux flux nets après netting.",
+    question: "Calculez l&apos;economie de flux realisee et les nouveaux flux nets apres netting.",
     data: [
       "Filiale A → Filiale B : 500 000 €",
       "Filiale A → Filiale C : 300 000 €",
@@ -56,17 +56,17 @@ const casPratiques: CasPratique[] = [
     solution: "**Flux bruts totaux :**\n500 000 + 300 000 + 200 000 + 400 000 + 150 000 + 250 000 = 1 800 000 €\n\n**Calcul des positions nettes :**\n\n*Filiale A :*\n- Reçoit : 200 000 + 150 000 = 350 000 €\n- Paie : 500 000 + 300 000 = 800 000 €\n- **Position nette : -450 000 € (débitrice)**\n\n*Filiale B :*\n- Reçoit : 500 000 + 250 000 = 750 000 €\n- Paie : 200 000 + 400 000 = 600 000 €\n- **Position nette : +150 000 € (créditrice)**\n\n*Filiale C :*\n- Reçoit : 300 000 + 400 000 = 700 000 €\n- Paie : 150 000 + 250 000 = 400 000 €\n- **Position nette : +300 000 € (créditrice)**\n\n**Flux nets après netting :**\n- A paie 300 000 € à C\n- A paie 150 000 € à B\n- **Total flux nets : 450 000 €**\n\n**Économie de flux : 1 800 000 - 450 000 = 1 350 000 €**\n**Économie de coûts : 1 350 000 × 0,15% = 2 025 € par mois**",
     methodology: [
       "Lister tous les flux inter-compagnies",
-      "Calculer la position nette de chaque entité",
-      "Déterminer les flux de règlement optimaux",
-      "Mesurer l'économie de flux réalisée",
-      "Calculer l'impact sur les coûts de transaction"
+      "Calculer la position nette de chaque entite",
+      "Determiner les flux de reglement optimaux",
+      "Mesurer l&apos;economie de flux realisee",
+      "Calculer l&apos;impact sur les couts de transaction"
     ]
   },
   {
     id: 3,
     title: "Analyse de Performance - Groupe GAMMA",
-    context: "Le groupe GAMMA souhaite évaluer la performance de sa gestion centralisée de trésorerie sur l'exercice écoulé.",
-    question: "Calculez les indicateurs de performance et analysez l'efficacité de la gestion.",
+    context: "Le groupe GAMMA souhaite evaluer la performance de sa gestion centralisee de tresorerie sur l&apos;exercice ecoule.",
+    question: "Calculez les indicateurs de performance et analysez l&apos;efficacite de la gestion.",
     data: [
       "Encours moyen de financement : 15 000 000 €",
       "Encours moyen de placement : 8 000 000 €",
@@ -77,13 +77,13 @@ const casPratiques: CasPratique[] = [
       "Benchmark coût de financement marché : 3,8%",
       "Benchmark rendement placement marché : 2,2%"
     ],
-    solution: "**Calcul des indicateurs :**\n\n**1. Coût moyen de financement (CMF) :**\nCMF = 540 000 / 15 000 000 = 3,6%\n\n**2. Rendement des placements (RDP) :**\nRDP = 160 000 / 8 000 000 = 2,0%\n\n**3. Spread de trésorerie :**\nSpread = 2,0% - 3,6% = -1,6%\n\n**4. Ratio de liquidité :**\nRL = 6 500 000 / 5 000 000 = 1,3\n\n**5. Résultat financier net :**\nRésultat = 160 000 - 540 000 = -380 000 €\n\n**Analyse comparative :**\n- CMF groupe (3,6%) vs marché (3,8%) : **Performance positive de +0,2 point**\n- RDP groupe (2,0%) vs marché (2,2%) : **Sous-performance de -0,2 point**\n- Ratio de liquidité de 1,3 : **Niveau satisfaisant** (> 1,2)\n\n**Recommandations :**\n- Améliorer le rendement des placements\n- Maintenir l'avantage sur le coût de financement\n- Optimiser l'allocation des excédents",
+    solution: "**Calcul des indicateurs :**\n\n**1. Cout moyen de financement (CMF) :**\nCMF = 540 000 / 15 000 000 = 3,6%\n\n**2. Rendement des placements (RDP) :**\nRDP = 160 000 / 8 000 000 = 2,0%\n\n**3. Spread de tresorerie :**\nSpread = 2,0% - 3,6% = -1,6%\n\n**4. Ratio de liquidite :**\nRL = 6 500 000 / 5 000 000 = 1,3\n\n**5. Resultat financier net :**\nResultat = 160 000 - 540 000 = -380 000 EUR\n\n**Analyse comparative :**\n- CMF groupe (3,6%) vs marche (3,8%) : **Performance positive de +0,2 point**\n- RDP groupe (2,0%) vs marche (2,2%) : **Sous-performance de -0,2 point**\n- Ratio de liquidite de 1,3 : **Niveau satisfaisant** (> 1,2)\n\n**Recommandations :**\n- Ameliorer le rendement des placements\n- Maintenir l&apos;avantage sur le cout de financement\n- Optimiser l&apos;allocation des excedents",
     methodology: [
       "Calculer le coût moyen de financement",
       "Déterminer le rendement des placements",
       "Analyser le spread et la liquidité",
       "Comparer aux benchmarks du marché",
-      "Formuler des recommandations d'amélioration"
+      "Formuler des recommandations d&apos;amelioration"
     ]
   }
 ];
@@ -230,12 +230,12 @@ export default function CasPratiques() {
           </div>
           
           <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-xl p-6">
-            <h2 className="text-2xl font-bold text-red-900 mb-4">Conseils pour l'examen DSCG</h2>
+            <h2 className="text-2xl font-bold text-red-900 mb-4">Conseils pour l&apos;examen DSCG</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h3 className="font-semibold text-red-800 mb-2">Méthodologie d'approche :</h3>
+                <h3 className="font-semibold text-red-800 mb-2">Méthodologie d&apos;approche :</h3>
                 <ul className="text-red-700 space-y-1 text-sm">
-                  <li>• Lire attentivement l'énoncé</li>
+                  <li>• Lire attentivement l&apos;enonce</li>
                   <li>• Identifier les données clés</li>
                   <li>• Structurer votre réponse</li>
                   <li>• Justifier vos calculs</li>
@@ -243,7 +243,7 @@ export default function CasPratiques() {
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold text-red-800 mb-2">Points d'attention :</h3>
+                <h3 className="font-semibold text-red-800 mb-2">Points d&apos;attention :</h3>
                 <ul className="text-red-700 space-y-1 text-sm">
                   <li>• Respecter les unités (€, %, etc.)</li>
                   <li>• Vérifier la cohérence des résultats</li>
@@ -262,7 +262,7 @@ export default function CasPratiques() {
               <h4 className="font-semibold text-orange-800 mb-2">Contexte :</h4>
               <p className="text-orange-700 text-sm mb-3">
                 Le groupe THETA opère un cash pooling avec 8 filiales. Suite à un contrôle fiscal, 
-                l'administration remet en question la rémunération des excédents et déficits.
+                l&apos;administration remet en question la remuneration des excedents et deficits.
               </p>
               
               <h4 className="font-semibold text-orange-800 mb-2">Données :</h4>
@@ -277,7 +277,7 @@ export default function CasPratiques() {
               
               <h4 className="font-semibold text-orange-800 mb-2">Question :</h4>
               <p className="text-orange-700 text-sm">
-                Analysez la conformité des taux et calculez l'impact fiscal potentiel d'un redressement.
+                Analysez la conformite des taux et calculez l&apos;impact fiscal potentiel d&apos;un redressement.
               </p>
             </div>
             
@@ -322,7 +322,7 @@ export default function CasPratiques() {
                   <p className="mb-2">12M€ × 0,3% = 36 000€ de charges financières excédentaires</p>
                   
                   <p className="mb-1"><strong>Impact total :</strong></p>
-                  <p className="mb-2">51 000€ de base taxable × 25% (IS) = 12 750€ d'impôt supplémentaire</p>
+                  <p className="mb-2">51 000 EUR de base taxable × 25% (IS) = 12 750 EUR d&apos;impot supplementaire</p>
                   
                   <h5 className="font-semibold mb-2">3. Recommandations :</h5>
                   <ul className="space-y-1">
