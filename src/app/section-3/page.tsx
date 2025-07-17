@@ -20,7 +20,7 @@ export default function Section3() {
             <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">Cadre de contrôle interne</h2>
             
             <p className="text-gray-700 leading-relaxed mb-6">
-              La mise en place d&apos;un systeme de centralisation de tresorerie necessite un cadre de controle
+              La mise en place d'un systeme de centralisation de tresorerie necessite un cadre de controle
               rigoureux pour assurer la sécurité des opérations et la conformité réglementaire.
             </p>
             
@@ -44,7 +44,7 @@ export default function Section3() {
             <h3 className="text-xl font-semibold text-gray-800 mb-4">2. Matrice des délégations</h3>
             
             <div className="bg-gray-50 p-6 rounded-lg mb-6">
-              <h4 className="font-semibold mb-4">Exemple de matrice d&apos;autorisation :</h4>
+              <h4 className="font-semibold mb-4">Exemple de matrice d'autorisation :</h4>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm border-collapse border border-gray-300">
                   <thead>
@@ -132,7 +132,7 @@ export default function Section3() {
               </div>
             </div>
             
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">5. Plan de continuite d&apos;activite</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">5. Plan de continuite d'activite</h3>
             
             <div className="bg-yellow-50 p-6 rounded-lg mb-6">
               <h4 className="font-semibold text-yellow-900 mb-4">Mesures de continuité</h4>
@@ -173,7 +173,7 @@ export default function Section3() {
                   <ul className="text-purple-700 space-y-1 text-sm">
                     <li>• Taux de disponibilite du systeme</li>
                     <li>• Delai moyen de traitement</li>
-                    <li>• Nombre d&apos;incidents par mois</li>
+                    <li>• Nombre d'incidents par mois</li>
                   </ul>
                 </div>
                 
@@ -182,7 +182,7 @@ export default function Section3() {
                   <ul className="text-purple-700 space-y-1 text-sm">
                     <li>• Economies realisees vs budget</li>
                     <li>• Evolution des frais bancaires</li>
-                    <li>• Optimisation des taux d&apos;interet</li>
+                    <li>• Optimisation des taux d'interet</li>
                   </ul>
                 </div>
               </div>
@@ -196,23 +196,23 @@ export default function Section3() {
                 <p className="text-green-800 mb-2"><strong>Situation :</strong></p>
                 <p className="text-green-700 text-sm mb-3">
                   Le groupe ZETA souhaite mettre en place un système de cash pooling.
-                  La filiale allemande a besoin d&apos;une autorisation d&apos;operation de tresorerie de 2 M EUR.
+                  La filiale allemande a besoin d'une autorisation d'operation de tresorerie de 2 M EUR.
                 </p>
                 
                 <p className="text-green-800 mb-2"><strong>Données :</strong></p>
                 <ul className="text-green-700 text-sm space-y-1 mb-3">
-                  <li>• Tresorier : autorise jusqu&apos;a 500 k EUR</li>
-                  <li>• Directeur Financier : autorise jusqu&apos;a 1,5 M EUR</li>
+                  <li>• Tresorier : autorise jusqu'a 500 k EUR</li>
+          <li>• Directeur Financier : autorise jusqu'a 1,5 M EUR</li>
                   <li>• Direction Generale : autorisation illimitee</li>
                 </ul>
                 
-                <p className="text-red-800 text-sm"><strong>Question :</strong> Quel circuit d&apos;autorisation doit etre suivi ?</p>
+                <p className="text-red-800 text-sm"><strong>Question :</strong> Quel circuit d'autorisation doit etre suivi ?</p>
               </div>
               
               <details className="bg-white p-4 rounded">
                 <summary className="font-semibold text-green-900 cursor-pointer">Voir la solution</summary>
                 <div className="mt-3 text-sm text-green-700">
-                  <p><strong>Circuit d&apos;autorisation requis :</strong></p>
+                  <p><strong>Circuit d'autorisation requis :</strong></p>
                   <p>• Montant : 2 M EUR &gt; 1,5 M EUR (limite du Directeur Financier)</p>
                   <p>• <strong>Autorisation necessaire :</strong></p>
                   <p>  1. Tresorier (initiation)</p>
@@ -220,9 +220,9 @@ export default function Section3() {
                   <p>  3. Direction Generale (autorisation finale)</p>
                   <br/>
                   <p><strong>Controles a effectuer :</strong></p>
-                  <p>• Verification de la capacite d&apos;endettement</p>
+                  <p>• Verification de la capacite d'endettement</p>
                   <p>• Validation de la contrepartie bancaire</p>
-                  <p>• Documentation de l&apos;operation</p>
+                  <p>• Documentation de l'operation</p>
                 </div>
               </details>
             </div>

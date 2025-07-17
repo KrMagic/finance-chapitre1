@@ -17,10 +17,10 @@ export default function Section2() {
           </div>
           
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">Strategies d&apos;optimisation</h2>
+            <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-3 sm:mb-4">Strategies d'optimisation</h2>
             
             <p className="text-gray-700 leading-relaxed mb-6">
-              L&apos;optimisation financiere dans un contexte de gestion centralisee vise a maximiser 
+              L'optimisation financiere dans un contexte de gestion centralisee vise a maximiser 
               la rentabilité des excédents de trésorerie tout en minimisant les coûts de financement 
               et les risques associés.
             </p>
@@ -99,7 +99,7 @@ export default function Section2() {
                     <div>
                       <strong className="text-red-800">Risque de taux</strong>
                       <ul className="text-red-700 text-sm mt-1">
-                        <li>• Swaps de taux d&apos;interet</li>
+                        <li>• Swaps de taux d'interet</li>
                         <li>• Diversification des echeances</li>
                         <li>• Analyse de sensibilite</li>
                       </ul>
@@ -175,19 +175,19 @@ export default function Section2() {
               </div>
             </div>
             
-            <h3 className="text-xl font-semibold text-gray-800 mb-4">6. Exercice d&apos;optimisation financiere</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">6. Exercice d'optimisation financiere</h3>
             
             <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-6">
               <h4 className="font-semibold text-green-900 mb-3">Cas pratique : Optimisation des placements - Groupe EPSILON</h4>
               <div className="mb-4">
-                <p className="text-green-800 mb-2"><strong>Situation :</strong> Le groupe EPSILON dispose d&apos;un excedent de tresorerie de 5 000 000 EUR a placer selon la hierarchie suivante :</p>
+                <p className="text-green-800 mb-2"><strong>Situation :</strong> Le groupe EPSILON dispose d'un excedent de tresorerie de 5 000 000 EUR a placer selon la hierarchie suivante :</p>
                 <ul className="text-green-700 text-sm space-y-1 mb-3">
                   <li>• Niveau 1 (0-7 jours) : 1 500 000 EUR a 1,5%</li>
                   <li>• Niveau 2 (1-3 mois) : 2 000 000 EUR a 2,8%</li>
                   <li>• Niveau 3 (3-12 mois) : 1 500 000 EUR a 3,5%</li>
                   <li>• Cout de financement evite : 4,2%</li>
                 </ul>
-                <p className="text-green-800 text-sm"><strong>Question :</strong> Calculez le rendement global et l&apos;economie realisee par rapport au cout de financement.</p>
+                <p className="text-green-800 text-sm"><strong>Question :</strong> Calculez le rendement global et l'economie realisee par rapport au cout de financement.</p>
               </div>
               
               <details className="bg-white p-4 rounded">
@@ -212,7 +212,7 @@ export default function Section2() {
             <h3 className="text-xl font-semibold text-gray-800 mb-4">7. Optimisation fiscale</h3>
             
             <div className="bg-yellow-50 p-6 rounded-lg mb-6">
-              <h4 className="font-semibold text-yellow-900 mb-3">Leviers d&apos;optimisation</h4>
+              <h4 className="font-semibold text-yellow-900 mb-3">Leviers d'optimisation</h4>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <TrendingDown className="h-5 w-5 text-yellow-600 mt-1" />
@@ -225,7 +225,7 @@ export default function Section2() {
                 <div className="flex items-start gap-3">
                   <TrendingDown className="h-5 w-5 text-yellow-600 mt-1" />
                   <div>
-                    <strong className="text-yellow-800">Optimisation des flux d&apos;interets</strong>
+                    <strong className="text-yellow-800">Optimisation des flux d'interets</strong>
                     <p className="text-sm text-yellow-700">Structuration pour minimiser la charge fiscale globale</p>
                   </div>
                 </div>

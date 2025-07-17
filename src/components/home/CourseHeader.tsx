@@ -17,7 +17,7 @@ export default function CourseHeader() {
           
           <p className="text-base sm:text-lg lg:text-xl text-blue-100 mb-4 sm:mb-6 leading-relaxed">
             Maîtrisez les techniques avancées de gestion de trésorerie en environnement de groupe. 
-            De la centralisation des flux a l&apos;optimisation financiere.
+            De la centralisation des flux a l\'optimisation financiere.
           </p>
           
           <div className="flex flex-wrap justify-center sm:justify-start gap-2 sm:gap-4">

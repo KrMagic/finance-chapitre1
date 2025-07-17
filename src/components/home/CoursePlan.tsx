@@ -24,7 +24,7 @@ const sections = [
   },
   {
     title: 'Section II - Optimisation Financière',
-    description: 'Strategies d&apos;optimisation et de gestion des risques',
+    description: 'Strategies d\'optimisation et de gestion des risques',
     href: '/section-2',
     icon: BarChart3,
     color: 'text-purple-600',
@@ -48,7 +48,7 @@ const sections = [
   },
   {
     title: 'Cas Pratiques',
-    description: 'Exercices d&apos;application et methodologie DSCG',
+    description: 'Exercices d\'application et methodologie DSCG',
     href: '/cas-pratiques',
     icon: Award,
     color: 'text-red-600',

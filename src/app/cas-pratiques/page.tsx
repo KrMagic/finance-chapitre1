@@ -21,14 +21,14 @@ const casPratiques: CasPratique[] = [
     id: 1,
     title: "Optimisation du Cash Pooling - Groupe ALPHA",
     context: "Le groupe ALPHA dispose de 4 filiales avec les positions de trésorerie suivantes au 31/12. La société mère souhaite optimiser sa gestion centralisée.",
-    question: "Calculez l&apos;economie d&apos;interets realisee grace au cash pooling physique.",
+    question: "Calculez l'economie d'interets realisee grace au cash pooling physique.",
     data: [
       "Filiale A : +2 000 000 € (excédent)",
       "Filiale B : -1 500 000 € (déficit)",
       "Filiale C : +800 000 € (excédent)",
       "Filiale D : -500 000 € (déficit)",
-      "Taux de placement : 2,5% l&apos;an",
-      "Taux d&apos;emprunt : 4,8% l&apos;an"
+      "Taux de placement : 2,5% l'an",
+      "Taux d'emprunt : 4,8% l'an"
     ],
     solution: "**Situation avant cash pooling :**\n\nExcédents totaux : 2 000 000 + 800 000 = 2 800 000 €\nDéficits totaux : 1 500 000 + 500 000 = 2 000 000 €\n\nProduits financiers : 2 800 000 × 2,5% = 70 000 €\nCharges financières : 2 000 000 × 4,8% = 96 000 €\n**Résultat net : 70 000 - 96 000 = -26 000 €**\n\n**Situation après cash pooling :**\n\nPosition nette du groupe : 2 800 000 - 2 000 000 = 800 000 €\nProduits financiers : 800 000 × 2,5% = 20 000 €\nCharges financières : 0 €\n**Résultat net : 20 000 €**\n\n**Économie réalisée : 20 000 - (-26 000) = 46 000 € par an**",
     methodology: [
@@ -36,14 +36,14 @@ const casPratiques: CasPratique[] = [
       "Calculer les produits et charges avant centralisation",
       "Determiner la position nette consolidee",
       "Calculer le nouveau resultat financier",
-      "Mesurer l&apos;economie realisee"
+      "Mesurer l'economie realisee"
     ]
   },
   {
     id: 2,
     title: "Système de Netting - Groupe BETA",
     context: "Le groupe BETA met en place un système de netting multilatéral pour optimiser ses flux inter-compagnies. Les flux mensuels entre filiales sont les suivants :",
-    question: "Calculez l&apos;economie de flux realisee et les nouveaux flux nets apres netting.",
+    question: "Calculez l'economie de flux realisee et les nouveaux flux nets apres netting.",
     data: [
       "Filiale A → Filiale B : 500 000 €",
       "Filiale A → Filiale C : 300 000 €",
@@ -58,15 +58,15 @@ const casPratiques: CasPratique[] = [
       "Lister tous les flux inter-compagnies",
       "Calculer la position nette de chaque entite",
       "Determiner les flux de reglement optimaux",
-      "Mesurer l&apos;economie de flux realisee",
-      "Calculer l&apos;impact sur les couts de transaction"
+      "Mesurer l'economie de flux realisee",
+      "Calculer l'impact sur les couts de transaction"
     ]
   },
   {
     id: 3,
     title: "Analyse de Performance - Groupe GAMMA",
     context: "Le groupe GAMMA souhaite evaluer la performance de sa gestion centralisee de tresorerie sur l&apos;exercice ecoule.",
-    question: "Calculez les indicateurs de performance et analysez l&apos;efficacite de la gestion.",
+    question: "Calculez les indicateurs de performance et analysez l'efficacite de la gestion.",
     data: [
       "Encours moyen de financement : 15 000 000 €",
       "Encours moyen de placement : 8 000 000 €",
@@ -83,7 +83,7 @@ const casPratiques: CasPratique[] = [
       "Déterminer le rendement des placements",
       "Analyser le spread et la liquidité",
       "Comparer aux benchmarks du marché",
-      "Formuler des recommandations d&apos;amelioration"
+      "Formuler des recommandations d'amelioration"
     ]
   }
 ];
@@ -109,12 +109,11 @@ export default function CasPratiques() {
             <div className="bg-red-100 p-2 sm:p-3 rounded-full mx-auto sm:mx-0">
               <Award className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 text-red-600" />
             </div>
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left">Cas Pratiques DSCG</h1>
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left">Cas pratiques d'application</h1>
           </div>
           
           <p className="text-xl text-gray-700 mb-8">
-            Mettez en pratique vos connaissances avec ces exercices d&apos;application 
-            inspires des epreuves DSCG. Chaque cas inclut une methodologie detaillee.
+            Ces exercices d'application sont inspires des epreuves DSCG et mettent l'accent sur une methodologie detaillee.
           </p>
           
           <div className="grid gap-8">
@@ -230,12 +229,12 @@ export default function CasPratiques() {
           </div>
           
           <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-xl p-6">
-            <h2 className="text-2xl font-bold text-red-900 mb-4">Conseils pour l&apos;examen DSCG</h2>
+            <h2 className="text-2xl font-bold text-orange-900 mb-4">Conseils pour l'examen DSCG</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h3 className="font-semibold text-red-800 mb-2">Méthodologie d&apos;approche :</h3>
                 <ul className="text-red-700 space-y-1 text-sm">
-                  <li>• Lire attentivement l&apos;enonce</li>
+                  <li>• Lire attentivement l'enonce</li>
                   <li>• Identifier les données clés</li>
                   <li>• Structurer votre réponse</li>
                   <li>• Justifier vos calculs</li>
@@ -262,7 +261,7 @@ export default function CasPratiques() {
               <h4 className="font-semibold text-orange-800 mb-2">Contexte :</h4>
               <p className="text-orange-700 text-sm mb-3">
                 Le groupe THETA opère un cash pooling avec 8 filiales. Suite à un contrôle fiscal, 
-                l&apos;administration remet en question la remuneration des excedents et deficits.
+                l'administration remet en question la remuneration des excedents et deficits.
               </p>
               
               <h4 className="font-semibold text-orange-800 mb-2">Données :</h4>
@@ -277,7 +276,7 @@ export default function CasPratiques() {
               
               <h4 className="font-semibold text-orange-800 mb-2">Question :</h4>
               <p className="text-orange-700 text-sm">
-                Analysez la conformite des taux et calculez l&apos;impact fiscal potentiel d&apos;un redressement.
+                Analysez la conformite des taux et calculez l'impact fiscal potentiel d'un redressement.
               </p>
             </div>
             

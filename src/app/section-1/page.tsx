@@ -21,7 +21,7 @@ export default function Section1() {
             
             <p className="text-gray-700 leading-relaxed mb-6">
               La centralisation des flux de trésorerie repose sur plusieurs techniques permettant
-              de regrouper et d&apos;optimiser la gestion des liquidites au niveau du groupe.
+              de regrouper et d'optimiser la gestion des liquidites au niveau du groupe.
               Ces techniques varient selon les contraintes réglementaires et les objectifs stratégiques.
             </p>
             
@@ -58,7 +58,7 @@ export default function Section1() {
               <ul className="text-green-700 space-y-1 text-sm">
                 <li>• Pas de transfert physique de fonds</li>
                 <li>• Compensation des intérêts</li>
-                <li>• Maintien de l&apos;autonomie juridique des filiales</li>
+                <li>• Maintien de l'autonomie juridique des filiales</li>
               </ul>
             </div>
             
@@ -96,12 +96,12 @@ export default function Section1() {
               <div className="flex items-start gap-3">
                 <Calculator className="h-6 w-6 text-yellow-600 mt-1" />
                 <div>
-                  <h4 className="font-semibold text-yellow-900 mb-3">Calcul de l&apos;economie de flux</h4>
+                  <h4 className="font-semibold text-yellow-900 mb-3">Calcul de l'economie de flux</h4>
                   <p className="text-yellow-800 text-sm mb-2">
                     <strong>Économie de flux = Σ(Flux bruts) - Σ(Flux nets)</strong>
                   </p>
                   <p className="text-yellow-700 text-xs">
-                    Plus le nombre d&apos;entites participantes est eleve, plus l&apos;economie de flux est importante.
+                    Plus le nombre d'entites participantes est eleve, plus l'economie de flux est importante.
                   </p>
                 </div>
               </div>
@@ -145,7 +145,7 @@ export default function Section1() {
             <h3 className="text-xl font-semibold text-gray-800 mb-4">5. Aspects réglementaires</h3>
             
             <div className="bg-red-50 border-l-4 border-red-500 p-6 mb-6">
-              <h3 className="font-semibold text-indigo-900 mb-2">Points d&apos;attention reglementaires</h3>
+              <h3 className="font-semibold text-indigo-900 mb-2">Points d'attention reglementaires</h3>
               <ul className="text-red-700 space-y-1 text-sm">
                 <li>• Articles L312-2 et L511-7 du Code monetaire et financier</li>
                 <li>• Mention obligatoire dans les statuts des societes</li>
@@ -205,7 +205,7 @@ export default function Section1() {
                   <li>• Filiale Gamma : +300 000 EUR</li>
                   <li>• Taux de placement : 2,8% - Taux d&apos;emprunt : 5,2%</li>
                 </ul>
-                <p className="text-red-800 text-sm"><strong>Question :</strong> Calculez l&apos;economie annuelle realisee grace au cash pooling.</p>
+                <p className="text-red-800 text-sm"><strong>Question :</strong> Calculez l'economie annuelle realisee grace au cash pooling.</p>
               </div>
               
               <details className="bg-white p-4 rounded">

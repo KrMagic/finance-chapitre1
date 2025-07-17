@@ -22,14 +22,14 @@ const questions: Question[] = [
       "Le cash pooling physique est plus risque",
       "Le cash pooling notionnel implique un transfert effectif de fonds",
       "Le cash pooling physique implique un transfert effectif de fonds",
-      "Il n&apos;y a aucune difference"
+      "Il n'y a aucune difference"
     ],
     correct: 2,
     explanation: "Le cash pooling physique implique un transfert effectif des soldes vers un compte centralise, tandis que le notionnel ne fait que compenser virtuellement les soldes."
   },
   {
     id: 2,
-    question: "Que signifie l&apos;acronyme CORP dans le contexte de la gestion centralisee ?",
+    question: "Que signifie l'acronyme CORP dans le contexte de la gestion centralisee ?",
     options: [
       "Centralisation, Optimisation, Risques, Processus",
       "Controle, Organisation, Reporting, Performance",
@@ -41,7 +41,7 @@ const questions: Question[] = [
   },
   {
     id: 3,
-    question: "Quel est l&apos;avantage principal du netting multilateral par rapport au bilateral ?",
+    question: "Quel est l'avantage principal du netting multilateral par rapport au bilateral ?",
     options: [
       "Il est plus simple a mettre en oeuvre",
       "Il permet une plus grande economie de flux",
@@ -65,7 +65,7 @@ const questions: Question[] = [
   },
   {
     id: 5,
-    question: "Que signifie l&apos;acronyme PROFIT pour l&apos;optimisation financiere ?",
+    question: "Que signifie l'acronyme PROFIT pour l'optimisation financiere ?",
     options: [
       "Performance, Rentabilite, Optimisation, Financement, Investissement, Tresorerie",
       "Placements, Risques, Outils, Financements, Indicateurs, Taxation",
@@ -85,7 +85,7 @@ const questions: Question[] = [
       "768 - Autres produits financiers"
     ],
     correct: 0,
-    explanation: "Le compte 451 &apos;Groupe&apos; est le compte principal pour enregistrer les avances et receptions de fonds dans le cadre du cash pooling."
+    explanation: "Le compte 451 'Groupe' est le compte principal pour enregistrer les avances et receptions de fonds dans le cadre du cash pooling."
   },
   {
     id: 7,
@@ -101,12 +101,12 @@ const questions: Question[] = [
   },
   {
     id: 8,
-    question: "Dans une matrice de pouvoirs, quel niveau d&apos;autorisation est requis pour une operation de 25M EUR ?",
+    question: "Dans une matrice de pouvoirs, quel niveau d'autorisation est requis pour une operation de 25M EUR ?",
     options: [
       "Tresorier (< 1M EUR)",
       "Directeur Financier (1-10M EUR)",
       "Comite de Tresorerie (10-50M EUR)",
-      "Conseil d&apos;Administration (> 50M EUR)"
+      "Conseil d'Administration (> 50M EUR)"
     ],
     correct: 2,
     explanation: "Une operation de 25M EUR releve du niveau strategique et necessite l'autorisation du Comite de Tresorerie."
@@ -125,7 +125,7 @@ const questions: Question[] = [
   },
   {
     id: 10,
-    question: "Que signifie l&apos;acronyme ZBA dans le contexte du cash pooling ?",
+    question: "Que signifie l'acronyme ZBA dans le contexte du cash pooling ?",
     options: [
       "Zero Banking Account",
       "Zone Business Area",
@@ -262,7 +262,7 @@ export default function Quiz() {
               <Brain className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 text-orange-600" />
             </div>
             <div className="flex-1">
-              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left">Quiz d&apos;evaluation</h1>
+              <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left">Quiz d'evaluation</h1>
               <div className="flex items-center gap-4 mt-2">
                 <span className="text-gray-600">Question {currentQuestion + 1} sur {questions.length}</span>
                 <div className="flex-1 bg-gray-200 rounded-full h-2">

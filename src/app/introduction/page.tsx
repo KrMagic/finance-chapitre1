@@ -17,13 +17,13 @@ export default function Introduction() {
           </div>
           
           <div className="prose prose-lg max-w-none">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Qu&apos;est-ce que la gestion centralisee de tresorerie ?</h2>
+            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Qu'est-ce que la gestion centralisee de tresorerie ?</h2>
             
             <p className="text-gray-700 leading-relaxed mb-6">
               La gestion centralisee de tresorerie est une approche strategique qui consiste a regrouper 
-              et coordonner les activites de tresorerie de toutes les entites d&apos;un groupe au sein d&apos;une 
-              structure centrale. Cette centralisation permet d&apos;optimiser la gestion des liquidites, 
-              de reduire les couts financiers et d&apos;ameliorer le controle des risques.
+              et coordonner les activites de tresorerie de toutes les entites d'un groupe au sein d'une
+        structure centrale. Cette centralisation permet d'optimiser la gestion des liquidites,
+        de reduire les couts financiers et d'ameliorer le controle des risques.
             </p>
             
             <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-6">
@@ -63,7 +63,7 @@ export default function Introduction() {
               <div className="bg-orange-50 p-6 rounded-lg border border-orange-200">
                 <h3 className="font-semibold text-orange-900 mb-3">Centre de Services Partagés</h3>
                 <p className="text-orange-800 text-sm">
-                  Structure centralisee qui gere les operations de tresorerie pour l&apos;ensemble 
+                  Structure centralisee qui gere les operations de tresorerie pour l'ensemble 
                   du groupe.
                 </p>
               </div>
