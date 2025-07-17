@@ -77,11 +77,11 @@ export default function CoursePlan() {
           >
             <Link href={section.href}>
               <div className={`${section.bgColor} p-4 sm:p-6 lg:p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 h-full`}>
-                <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 mb-4 sm:mb-6">
-                  <div className={`${section.color} p-2 sm:p-3 rounded-full flex-shrink-0 mx-auto sm:mx-0`}>
+                <div className="flex flex-col items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
+                  <div className={`${section.color} p-2 sm:p-3 rounded-full flex-shrink-0 mx-auto`}>
                     <section.icon className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 text-white" />
                   </div>
-                  <div className="flex-1 text-center sm:text-left">
+                  <div className="flex-1 text-center">
                     <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-2 group-hover:text-gray-700 transition-colors">
                       {section.title}
                     </h3>
