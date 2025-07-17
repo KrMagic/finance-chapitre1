@@ -267,7 +267,7 @@ export default function CasPratiques() {
               <h4 className="font-semibold text-orange-800 mb-2 text-sm sm:text-base">Contexte :</h4>
               <p className="text-orange-700 text-xs sm:text-sm mb-3 leading-relaxed">
                 Le groupe THETA opère un cash pooling avec 8 filiales. Suite à un contrôle fiscal, 
-                l'administration remet en question la remuneration des excedents et deficits.
+                l&apos;administration remet en question la rémunération des excédents et déficits.
               </p>
               
               <h4 className="font-semibold text-orange-800 mb-2 text-sm sm:text-base">Données :</h4>
@@ -282,7 +282,7 @@ export default function CasPratiques() {
               
               <h4 className="font-semibold text-orange-800 mb-2 text-sm sm:text-base">Question :</h4>
               <p className="text-orange-700 text-xs sm:text-sm leading-relaxed">
-                Analysez la conformite des taux et calculez l'impact fiscal potentiel d'un redressement.
+                Analysez la conformité des taux et calculez l&apos;impact fiscal potentiel d&apos;un redressement.
               </p>
             </div>
             

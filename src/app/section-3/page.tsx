@@ -196,33 +196,33 @@ export default function Section3() {
                 <p className="text-green-800 mb-2"><strong>Situation :</strong></p>
                 <p className="text-green-700 text-sm mb-3">
                   Le groupe ZETA souhaite mettre en place un système de cash pooling.
-                  La filiale allemande a besoin d'une autorisation d'operation de tresorerie de 2 M EUR.
+                  La filiale allemande a besoin d&apos;une autorisation d&apos;opération de trésorerie de 2 M EUR.
                 </p>
                 
                 <p className="text-green-800 mb-2"><strong>Données :</strong></p>
                 <ul className="text-green-700 text-sm space-y-1 mb-3">
-                  <li>• Tresorier : autorise jusqu'a 500 k EUR</li>
-          <li>• Directeur Financier : autorise jusqu'a 1,5 M EUR</li>
+                  <li>• Trésorier : autorise jusqu&apos;à 500 k EUR</li>
+                  <li>• Directeur Financier : autorise jusqu&apos;à 1,5 M EUR</li>
                   <li>• Direction Generale : autorisation illimitee</li>
                 </ul>
                 
-                <p className="text-red-800 text-sm"><strong>Question :</strong> Quel circuit d'autorisation doit etre suivi ?</p>
+                <p className="text-red-800 text-sm"><strong>Question :</strong> Quel circuit d&apos;autorisation doit être suivi ?</p>
               </div>
               
               <details className="bg-white p-4 rounded">
                 <summary className="font-semibold text-green-900 cursor-pointer">Voir la solution</summary>
                 <div className="mt-3 text-sm text-green-700">
-                  <p><strong>Circuit d'autorisation requis :</strong></p>
+                  <p><strong>Circuit d&apos;autorisation requis :</strong></p>
                   <p>• Montant : 2 M EUR &gt; 1,5 M EUR (limite du Directeur Financier)</p>
                   <p>• <strong>Autorisation necessaire :</strong></p>
                   <p>  1. Tresorier (initiation)</p>
                   <p>  2. Directeur Financier (validation)</p>
                   <p>  3. Direction Generale (autorisation finale)</p>
                   <br/>
-                  <p><strong>Controles a effectuer :</strong></p>
-                  <p>• Verification de la capacite d'endettement</p>
+                  <p><strong>Contrôles à effectuer :</strong></p>
+                  <p>• Vérification de la capacité d&apos;endettement</p>
                   <p>• Validation de la contrepartie bancaire</p>
-                  <p>• Documentation de l'operation</p>
+                  <p>• Documentation de l&apos;opération</p>
                 </div>
               </details>
             </div>

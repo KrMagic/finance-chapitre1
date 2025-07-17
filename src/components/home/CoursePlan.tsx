@@ -1,14 +1,13 @@
 'use client';
 
-import { Target, Rocket, TrendingUp, BarChart3, Users, Brain, Award } from 'lucide-react';
+import { Rocket, TrendingUp, BarChart3, Users, Brain, Award } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import SectionBlock from './SectionBlock';
 
 const sections = [
   {
     title: 'Introduction',
-    description: 'Concepts de base et definitions de la gestion centralisee',
+    description: 'Concepts de base et définitions de la gestion centralisée',
     href: '/introduction',
     icon: Rocket,
     color: 'text-blue-600',
@@ -24,7 +23,7 @@ const sections = [
   },
   {
     title: 'Section II - Optimisation Financière',
-    description: 'Strategies d\'optimisation et de gestion des risques',
+    description: 'Stratégies d&apos;optimisation et de gestion des risques',
     href: '/section-2',
     icon: BarChart3,
     color: 'text-purple-600',
@@ -48,7 +47,7 @@ const sections = [
   },
   {
     title: 'Cas Pratiques',
-    description: 'Exercices d\'application et methodologie DSCG',
+    description: 'Exercices d&apos;application et méthodologie DSCG',
     href: '/cas-pratiques',
     icon: Award,
     color: 'text-red-600',
@@ -68,7 +67,7 @@ export default function CoursePlan() {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
-        {sections.map((section, index) => (
+        {sections.map((section) => (
           <motion.div
             key={section.href}
             whileHover={{ scale: 1.02 }}
