@@ -104,61 +104,63 @@ export default function CasPratiques() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8 lg:py-12 max-w-6xl">
         <BackToPlanButton />
         
-        <div className="bg-white rounded-2xl shadow-xl p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8">
+        <div className="bg-white rounded-2xl shadow-xl p-3 sm:p-6 lg:p-8 mb-6 sm:mb-8">
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 mb-4 sm:mb-6">
             <div className="bg-red-100 p-2 sm:p-3 rounded-full mx-auto sm:mx-0">
               <Award className="h-6 w-6 sm:h-7 sm:w-7 lg:h-8 lg:w-8 text-red-600" />
             </div>
-            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left">Cas pratiques d'application</h1>
+            <h1 className="text-xl sm:text-3xl lg:text-4xl font-bold text-gray-900 text-center sm:text-left leading-tight">
+              Cas pratiques d'application
+            </h1>
           </div>
           
-          <p className="text-xl text-gray-700 mb-8">
+          <p className="text-base sm:text-xl text-gray-700 mb-6 sm:mb-8 leading-relaxed">
             Ces exercices d'application sont inspires des epreuves DSCG et mettent l'accent sur une methodologie detaillee.
           </p>
           
-          <div className="grid gap-8">
+          <div className="grid gap-6 sm:gap-8">
             {casPratiques.map((cas, index) => (
               <motion.div
                 key={cas.id}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className="border border-gray-200 rounded-xl p-6 hover:shadow-lg transition-shadow"
+                className="border border-gray-200 rounded-xl p-4 sm:p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="flex items-start gap-4 mb-4">
-                  <div className="bg-red-100 p-2 rounded-full">
-                    <Calculator className="h-6 w-6 text-red-600" />
+                <div className="flex items-start gap-3 sm:gap-4 mb-4">
+                  <div className="bg-red-100 p-2 rounded-full flex-shrink-0">
+                    <Calculator className="h-5 w-5 sm:h-6 sm:w-6 text-red-600" />
                   </div>
-                  <div className="flex-1">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                  <div className="flex-1 min-w-0">
+                    <h2 className="text-lg sm:text-2xl font-bold text-gray-900 mb-2 leading-tight">
                       Cas {cas.id} : {cas.title}
                     </h2>
-                    <p className="text-gray-700 mb-4">{cas.context}</p>
+                    <p className="text-sm sm:text-base text-gray-700 mb-4 leading-relaxed">{cas.context}</p>
                     
-                    <div className="bg-blue-50 p-4 rounded-lg mb-4">
-                      <h3 className="font-semibold text-blue-900 mb-2">Question :</h3>
-                      <p className="text-blue-800">{cas.question}</p>
+                    <div className="bg-blue-50 p-3 sm:p-4 rounded-lg mb-4">
+                      <h3 className="font-semibold text-blue-900 mb-2 text-sm sm:text-base">Question :</h3>
+                      <p className="text-blue-800 text-sm sm:text-base leading-relaxed">{cas.question}</p>
                     </div>
                     
-                    <div className="bg-gray-50 p-4 rounded-lg mb-4">
-                      <h3 className="font-semibold text-gray-900 mb-2">Données :</h3>
+                    <div className="bg-gray-50 p-3 sm:p-4 rounded-lg mb-4">
+                      <h3 className="font-semibold text-gray-900 mb-2 text-sm sm:text-base">Données :</h3>
                       <ul className="space-y-1">
                         {cas.data.map((item, idx) => (
-                          <li key={idx} className="text-gray-700 text-sm">
+                          <li key={idx} className="text-gray-700 text-xs sm:text-sm leading-relaxed break-words">
                             • {item}
                           </li>
                         ))}
                       </ul>
                     </div>
                     
-                    <div className="bg-yellow-50 border-l-4 border-yellow-500 p-4 mb-4">
+                    <div className="bg-yellow-50 border-l-4 border-yellow-500 p-3 sm:p-4 mb-4">
                       <div className="flex items-start gap-2">
-                        <Lightbulb className="h-5 w-5 text-yellow-600 mt-0.5" />
-                        <div>
-                          <h3 className="font-semibold text-yellow-900 mb-2">Méthodologie :</h3>
+                        <Lightbulb className="h-4 w-4 sm:h-5 sm:w-5 text-yellow-600 mt-0.5 flex-shrink-0" />
+                        <div className="min-w-0">
+                          <h3 className="font-semibold text-yellow-900 mb-2 text-sm sm:text-base">Méthodologie :</h3>
                           <ol className="space-y-1">
                             {cas.methodology.map((step, idx) => (
-                              <li key={idx} className="text-yellow-800 text-sm">
+                              <li key={idx} className="text-yellow-800 text-xs sm:text-sm leading-relaxed break-words">
                                 {idx + 1}. {step}
                               </li>
                             ))}
@@ -170,17 +172,19 @@ export default function CasPratiques() {
                     <div className="flex gap-3">
                       <button
                         onClick={() => toggleSolution(cas.id)}
-                        className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2"
+                        className="bg-red-600 hover:bg-red-700 text-white px-3 sm:px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 text-sm sm:text-base"
                       >
                         {showSolution[cas.id] ? (
                           <>
                             <EyeOff className="h-4 w-4" />
-                            Masquer la solution
+                            <span className="hidden sm:inline">Masquer la solution</span>
+                            <span className="sm:hidden">Masquer</span>
                           </>
                         ) : (
                           <>
                             <Eye className="h-4 w-4" />
-                            Voir la solution
+                            <span className="hidden sm:inline">Voir la solution</span>
+                            <span className="sm:hidden">Solution</span>
                           </>
                         )}
                       </button>
@@ -191,13 +195,13 @@ export default function CasPratiques() {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="mt-6 bg-green-50 border border-green-200 rounded-lg p-6"
+                        className="mt-4 sm:mt-6 bg-green-50 border border-green-200 rounded-lg p-3 sm:p-6"
                       >
-                        <h3 className="font-semibold text-green-900 mb-4 flex items-center gap-2">
-                          <Award className="h-5 w-5" />
+                        <h3 className="font-semibold text-green-900 mb-3 sm:mb-4 flex items-center gap-2 text-sm sm:text-base">
+                          <Award className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
                           Solution détaillée
                         </h3>
-                        <div className="prose prose-sm max-w-none text-green-800">
+                        <div className="prose prose-sm max-w-none text-green-800 text-xs sm:text-sm leading-relaxed">
                           {cas.solution.split('\n').map((line, idx) => {
                             if (line.startsWith('**') && line.endsWith('**')) {
                               return (
@@ -228,12 +232,12 @@ export default function CasPratiques() {
             ))}
           </div>
           
-          <div className="mt-12 bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-xl p-6">
-            <h2 className="text-2xl font-bold text-orange-900 mb-4">Conseils pour l'examen DSCG</h2>
-            <div className="grid md:grid-cols-2 gap-6">
+          <div className="mt-8 sm:mt-12 bg-gradient-to-r from-red-50 to-orange-50 border border-red-200 rounded-xl p-4 sm:p-6">
+            <h2 className="text-lg sm:text-2xl font-bold text-orange-900 mb-3 sm:mb-4">Conseils pour l'examen DSCG</h2>
+            <div className="grid md:grid-cols-2 gap-4 sm:gap-6">
               <div>
-                <h3 className="font-semibold text-red-800 mb-2">Méthodologie d&apos;approche :</h3>
-                <ul className="text-red-700 space-y-1 text-sm">
+                <h3 className="font-semibold text-red-800 mb-2 text-sm sm:text-base">Méthodologie d&apos;approche :</h3>
+                <ul className="text-red-700 space-y-1 text-xs sm:text-sm leading-relaxed">
                   <li>• Lire attentivement l'enonce</li>
                   <li>• Identifier les données clés</li>
                   <li>• Structurer votre réponse</li>
@@ -242,8 +246,8 @@ export default function CasPratiques() {
                 </ul>
               </div>
               <div>
-                <h3 className="font-semibold text-red-800 mb-2">Points d&apos;attention :</h3>
-                <ul className="text-red-700 space-y-1 text-sm">
+                <h3 className="font-semibold text-red-800 mb-2 text-sm sm:text-base">Points d&apos;attention :</h3>
+                <ul className="text-red-700 space-y-1 text-xs sm:text-sm leading-relaxed">
                   <li>• Respecter les unités (€, %, etc.)</li>
                   <li>• Vérifier la cohérence des résultats</li>
                   <li>• Utiliser le vocabulaire technique</li>
@@ -254,18 +258,20 @@ export default function CasPratiques() {
             </div>
           </div>
           
-          <div className="mt-8 bg-orange-50 border border-orange-200 rounded-xl p-6">
-            <h2 className="text-2xl font-bold text-orange-900 mb-4">Cas 4 : Mise en conformité réglementaire - Groupe THETA</h2>
+          <div className="mt-6 sm:mt-8 bg-orange-50 border border-orange-200 rounded-xl p-4 sm:p-6">
+            <h2 className="text-lg sm:text-2xl font-bold text-orange-900 mb-3 sm:mb-4 leading-tight">
+              Cas 4 : Mise en conformité réglementaire - Groupe THETA
+            </h2>
             
             <div className="mb-4">
-              <h4 className="font-semibold text-orange-800 mb-2">Contexte :</h4>
-              <p className="text-orange-700 text-sm mb-3">
+              <h4 className="font-semibold text-orange-800 mb-2 text-sm sm:text-base">Contexte :</h4>
+              <p className="text-orange-700 text-xs sm:text-sm mb-3 leading-relaxed">
                 Le groupe THETA opère un cash pooling avec 8 filiales. Suite à un contrôle fiscal, 
                 l'administration remet en question la remuneration des excedents et deficits.
               </p>
               
-              <h4 className="font-semibold text-orange-800 mb-2">Données :</h4>
-              <ul className="text-orange-700 text-sm space-y-1 mb-3">
+              <h4 className="font-semibold text-orange-800 mb-2 text-sm sm:text-base">Données :</h4>
+              <ul className="text-orange-700 text-xs sm:text-sm space-y-1 mb-3 leading-relaxed">
                 <li>• Taux appliqué aux excédents : 0,5%</li>
                 <li>• Taux appliqué aux déficits : 2,8%</li>
                 <li>• Taux de marché EONIA + 0,1% : 0,6%</li>
@@ -274,25 +280,27 @@ export default function CasPratiques() {
                 <li>• Montant moyen des déficits : 12M€</li>
               </ul>
               
-              <h4 className="font-semibold text-orange-800 mb-2">Question :</h4>
-              <p className="text-orange-700 text-sm">
+              <h4 className="font-semibold text-orange-800 mb-2 text-sm sm:text-base">Question :</h4>
+              <p className="text-orange-700 text-xs sm:text-sm leading-relaxed">
                 Analysez la conformite des taux et calculez l'impact fiscal potentiel d'un redressement.
               </p>
             </div>
             
             <button
               onClick={() => toggleSolution(4)}
-              className="bg-orange-600 hover:bg-orange-700 text-white px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 mb-4"
+              className="bg-orange-600 hover:bg-orange-700 text-white px-3 sm:px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 mb-4 text-sm sm:text-base"
             >
               {showSolution[4] ? (
                 <>
                   <EyeOff className="h-4 w-4" />
-                  Masquer la solution
+                  <span className="hidden sm:inline">Masquer la solution</span>
+                  <span className="sm:hidden">Masquer</span>
                 </>
               ) : (
                 <>
                   <Eye className="h-4 w-4" />
-                  Voir la solution
+                  <span className="hidden sm:inline">Voir la solution</span>
+                  <span className="sm:hidden">Solution</span>
                 </>
               )}
             </button>
@@ -302,13 +310,13 @@ export default function CasPratiques() {
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: 'auto' }}
                 exit={{ opacity: 0, height: 0 }}
-                className="bg-white border border-orange-200 rounded-lg p-6"
+                className="bg-white border border-orange-200 rounded-lg p-3 sm:p-6"
               >
-                <h3 className="font-semibold text-orange-900 mb-4 flex items-center gap-2">
-                  <Award className="h-5 w-5" />
+                <h3 className="font-semibold text-orange-900 mb-3 sm:mb-4 flex items-center gap-2 text-sm sm:text-base">
+                  <Award className="h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
                   Solution détaillée
                 </h3>
-                <div className="text-sm text-orange-700">
+                <div className="text-xs sm:text-sm text-orange-700 leading-relaxed">
                   <h5 className="font-semibold mb-2">1. Analyse de conformité :</h5>
                   <p className="mb-2"><strong>Excédents :</strong> 0,5% vs 0,6% (marché) → Non conforme (-0,1%)</p>
                   <p className="mb-3"><strong>Déficits :</strong> 2,8% vs 2,5% (marché) → Non conforme (+0,3%)</p>
